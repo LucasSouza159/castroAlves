@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
+    <meta name="author" content="Lucas Oliveira &copy; LittleBegin">
+    <meta property="og:title" content="Pizzaria, Esfiharia Castro Alves, Estrada do lajeado velho">
+    <meta property="og:description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
+    <meta property="og:url" content="https://pizzariacastroalves.com/index.html">
+    <meta property="og:site_name" content="PizzariaCastroAlves"> 
+    <meta property="og:locale" content="pt_br">
+    <meta property="og:type" content="website">
+
+
+    <!-- Redes sociais -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://twitter.com/COLOCAR O TWITTER AQUI>">
+    <meta name="twitter:title" content>
+    <meta name="twitter:description" content="Pizzaria e Esfiharia Castro Alves, venha pedir sua deliciosa pizza">
+    <meta itemprop="description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
+
+
+    <meta itemprop="description" content>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b51da895f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Pizzaria Castro Alves</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="/img/favicon.png">
+
+  </head>
+  <body>
+    <header class="menu">
+      <nav>
+        <a href="/"><img src="img/logo.png" alt="logo" class="nav-logo" /></a>
+        <a href="#pedir" class="pedir">Peça já!</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="slider">
+          <div class="slider--controls">
+            <div class="slider--control">
+              <i class="fa-solid fa-arrow-left" onclick="goPrev();"></i>
+            </div>
+            <div class="slider--control">
+              <i class="fa-solid fa-arrow-right" onclick="goNext();"></i>
+            </div>
+          </div>
+          <div class="slider--width">
+            <div
+              class="slider--item"
+              style="background-image: url(./img/back1.jpg)"
+            ></div>
+            <div
+              class="slider--item"
+              style="background-image: url('./img/back2.jpg')"
+            ></div>
+            <div
+              class="slider--item"
+              style="background-image: url('./img/back3.jpg')"
+            ></div>
+            <div
+              class="slider--item"
+              style="background-image: url('./img/back4.jpg')"
+            ></div>
+            <div
+              class="slider--item"
+              style="background-image: url('./img/back5.jpg')"
+            ></div>
+          </div>
+        </div>
+        <div class="container-formulario" id="pedir">
+          <h1>Peça já<br /><span> sua pizza!!!</span></h1>
+          <form class="formulario" autocomplete="off">
+            <input
+              type="text"
+              placeholder="Nome"
+              name="nome"
+              id="nome"
+              value=""
+              required=""
+              class="formulario-item"
+            />
+            <input
+              type="text"
+              placeholder="Endereço"
+              name="endereco"
+              id="endereco"
+              value=""
+              required=""
+              class="formulario-item"
+            />
+            <select id="sabor" class="formulario-item">
+              <option>
+                A GREGA R$ 33 | Frango, Milho, Calabresa, Catupiry
+              </option>
+              <option>A MODA DA CASA R$ 36 |</option>
+              <option>A MODA DA PIZZAIOLA R$ 34 |</option>
+              <option>ALHO FRITO R$ 29 |</option>
+              <option>ALEMÃ R$ 33 |</option>
+              <option>AMERICANA R$ 33 |</option>
+              <option>ATUM R$ 33 |</option>
+              <option>ATUM A MODA PAULISTA R$ 36 |</option>
+              <option>BACON R$ 33 |</option>
+              <option>BAIANA I R$ 29 |</option>
+              <option>BAIANA II R$ 36 |</option>
+              <option>BAURU R$ 34 |</option>
+              <option>BROCOLIS R$ 33 |</option>
+              <option>CAIPIRA R$ 32 |</option>
+              <option>CALABACON R$ 33 |</option>
+              <option>CALABRESA R$ 29 |</option>
+              <option>CALABRESA II R$ 38 |</option>
+              <option>CALACATU R$ 33 |</option>
+              <option>CALAMUSSA R$ 33 |</option>
+              <option>CATUMILHO R$ 31 |</option>
+              <option>CROCANTE R$ 37 |</option>
+              <option>DOIS QUEIJOS R$ 33 |</option>
+              <option>TRÊS QUEIJOS R$ 34 |</option>
+              <option>QUATRO QUEIJOS R$ 35 |</option>
+              <option>ESCAROLA R$ 33 |</option>
+              <option>FRANGO R$ 29 |</option>
+              <option>FRANGO C/CATUPIRY R$ 31 |</option>
+              <option>FRANCO C/MUSSARELA R$ 31 |</option>
+              <option>FRANGO TOP R$ 37 |</option>
+              <option>ITALIANA R$ 37 |</option>
+              <option>LOMBO R$ 37 |</option>
+              <option>MARGUERITA R$ 29 |</option>
+              <option>MEXICANA R$ 37 |</option>
+              <option>MILHO VERDE R$ 29 |</option>
+              <option>MUSSARELA R$ 29 |</option>
+              <option>PORTUGUESA R$ 32 |</option>
+              <option>PORTUGUESA TOP R$ 35 |</option>
+              <option>PALMITO R$ 32 |</option>
+              <option>TOSCANA R$ 30 |</option>
+            </select>
+            <select id="borda" class="formulario-item">
+              <option>Borda simples</option>
+              <option>Borda com Cheedar $5</option>
+              <option>Borda com Catupiry $5</option>
+            </select>
+            <select id="entrega" class="formulario-item">
+              <option>Entregar de moto</option>
+              <option>Retirar</option>
+            </select>
+            <input
+              type="submit"
+              name="submit"
+              value="Enviar"
+              onclick="gotowhatsapp();"
+              class="formulario-btn"
+            />
+          </form>
+        </div>
+
+        <div class="endereco">
+          <h2>Retire o seu pedido</h2>
+          <iframe
+            class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6253229490258!2d-46.419367685422635!3d-23.545974766908405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce644b121690e1%3A0x7fe260d9adc7ce7d!2sR.%20Cmte.%20Carlos%20Ruhl%20-%20Vila%20Princesa%20Isabel%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008410-130!5e0!3m2!1spt-BR!2sbr!4v1655399045432!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://www.youtube.com/c/LittleBegin"
+        >Copyright &copy; LittleBegin</a
+      >
+      <div class="contato">
+        <p>Endereço:</p>
+        <p>Contato: (11) 99999-9999</p>
+      </div>
+    </footer>
+
+    <script src="/js/whats.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
