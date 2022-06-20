@@ -159,6 +159,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
 }
 .buffet-crepe, .buffet-pizza{
     width: 40%;
@@ -197,24 +198,6 @@ body{
     background-color: #751201;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 .footer{
     display: flex;
@@ -232,7 +215,7 @@ body{
     font-size: 1rem;
 }
 
-/*Quer*/
+/*Query's*/
 
 @media (max-width: 600px){
     .container-formulario h1{
@@ -240,6 +223,9 @@ body{
         text-align: center;
         margin-top: -40px;
         margin-bottom: -30px;
+    }
+    .buffet-title{
+        font-size: 3rem;
     }
     .container-formulario span{
         margin-left: 0px;
@@ -270,6 +256,15 @@ body{
         width: 90%;
         height: 200px;
         margin-bottom: 20px;
+    }
+    .contato-buffet h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .contato-buffet p{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
     }
     .footer{
         display: none;
