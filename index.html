@@ -4,25 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
-    <meta name="author" content="Lucas Oliveira &copy; LittleBegin">
-    <meta property="og:title" content="Pizzaria, Esfiharia Castro Alves, Estrada do lajeado velho">
-    <meta property="og:description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
-    <meta property="og:url" content="https://pizzariacastroalves.com/index.html">
-    <meta property="og:site_name" content="PizzariaCastroAlves"> 
-    <meta property="og:locale" content="pt_br">
-    <meta property="og:type" content="website">
-
+    <meta
+      name="description"
+      content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local"
+    />
+    <meta name="author" content="Lucas Oliveira &copy; LittleBegin" />
+    <meta
+      property="og:title"
+      content="Pizzaria, Esfiharia Castro Alves, Estrada do lajeado velho"
+    />
+    <meta
+      property="og:description"
+      content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local"
+    />
+    <meta
+      property="og:url"
+      content="https://pizzariacastroalves.com/index.html"
+    />
+    <meta property="og:site_name" content="PizzariaCastroAlves" />
+    <meta property="og:locale" content="pt_br" />
+    <meta property="og:type" content="website" />
 
     <!-- Redes sociais -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://twitter.com/COLOCAR O TWITTER AQUI>">
-    <meta name="twitter:title" content>
-    <meta name="twitter:description" content="Pizzaria e Esfiharia Castro Alves, venha pedir sua deliciosa pizza">
-    <meta itemprop="description" content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local">
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/COLOCAR O TWITTER AQUI>"
+    />
+    <meta name="twitter:title" content />
+    <meta
+      name="twitter:description"
+      content="Pizzaria e Esfiharia Castro Alves, venha pedir sua deliciosa pizza"
+    />
+    <meta
+      itemprop="description"
+      content="Pizzaria, Esfiharia Castro Alves Estrada do Lajeado Velho peça já sua entrega ou retire no local"
+    />
 
-
-    <meta itemprop="description" content>
+    <meta itemprop="description" content />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,14 +57,16 @@
     <title>Pizzaria Castro Alves</title>
 
     <!-- favicon -->
-    <link rel="icon" href="/img/favicon.png">
-
+    <link rel="icon" href="/img/favicon.png" />
   </head>
   <body>
     <header class="menu">
       <nav>
         <a href="/"><img src="img/logo.png" alt="logo" class="nav-logo" /></a>
-        <a href="#pedir" class="pedir">Peça já!</a>
+        <div class="container-menu">
+          <span><a href="#buffet" class="buffet">Buffet</a></span>
+          <span><a href="#pizza" class="pizza">Pizzas</a></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -82,7 +103,7 @@
             ></div>
           </div>
         </div>
-        <div class="container-formulario" id="pedir">
+        <div class="container-formulario" id="pizza">
           <h1>Peça já<br /><span> sua pizza!!!</span></h1>
           <form class="formulario" autocomplete="off">
             <input
@@ -165,7 +186,11 @@
           </form>
         </div>
 
-        <div class="endereco">
+        <section>
+          <h2>buffet Pizza da Familia</h2>
+        </section>
+
+        <section class="endereco">
           <h2>Retire o seu pedido</h2>
           <iframe
             class="mapa"
@@ -174,7 +199,7 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </section>
       </div>
     </main>
     <footer class="footer">

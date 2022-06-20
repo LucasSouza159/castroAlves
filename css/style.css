@@ -29,6 +29,10 @@ body{
     width: 77px;
     height: 63px;
 }
+.container-menu{
+    display: flex;
+    gap: 50px;
+}
 
 /*Carrossel*/
 .slider{
