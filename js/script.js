@@ -1,4 +1,5 @@
-let totalSlides = document.querySelectorAll(".slider--item").length;
+function carrossel(){
+  let totalSlides = document.querySelectorAll(".slider--item").length;
 let currentSlide = 0;
 
 document.querySelector(
@@ -34,3 +35,41 @@ function updateMargin() {
 setInterval(() => {
   goNext();
 }, 4000);
+}
+
+
+function gotowhatsapp() {
+            
+  var nome = document.getElementById("nome").value;
+  var endereco = document.getElementById("endereco").value;
+  var sabor = document.getElementById("sabor").value;
+  var borda = document.getElementById("borda").value;
+  var entrega = document.getElementById("entrega").value;
+
+  var url = "https://wa.me/+5511985307427?text=" 
+  + "Nome: " + nome + "%0a"
+  + "Endereço: " + endereco + "%0a"
+  + "Sabor: " + sabor  + "%0a"
+  + "Borda: " + borda + "%0a"
+  + "Entrega: " + entrega; 
+
+  window.open(url, '_blank').focus();
+}
+
+function buffetgotowhatsapp() {
+            
+  var nomebuffet = document.getElementById("nomebuffet").value;
+  var enderecobuffet = document.getElementById("enderecobuffet").value;
+  var saborbuffet = document.getElementById("saborbuffet").value;
+  
+  var url = "https://wa.me/+5511985307427?text=" 
+  + "Nome: " + nomebuffet + "%0a"
+  + "Endereço: " + enderecobuffet + "%0a"
+  + "Sabor: " + saborbuffet  + "%0a"
+
+  window.open(url, '_blank').focus();
+}
+
+carrossel();
+gotowhatsapp();
+buffetgotowhatsapp();
