@@ -203,37 +203,68 @@
             <div class="buffet-pizza">
               <h2>Pizza</h2>
               <details class="buffet-detalhe">
-                <summary>Pacote Pizza Simples</summary>
+                <summary>Pizza Familia Completo</summary>
                 <div class="collapse">
-                  <span>Iten 1</span>
-                  <span>Iten 2</span>
-                  <span>Iten 3</span>
-                  <span>Iten 4</span>
+                  <span
+                    ><strong>Equipe: </strong> 1 Pizzaiolo, 1 auxiliar para
+                    rodizio de pizzas e 1 auxilar para bebidas.</span
+                  ><br />
+                  <span
+                    ><strong>Equipamentos: </strong>Guardanapos, Forno a gás com
+                    pedra refratária, pratos em porcelana e talheres</span
+                  ><br />
+                  <span
+                    ><strong>Entradas: </strong>Bandeijá de antepassos de alho e
+                    molho rose.</span
+                  ><br />
+                  <span
+                    ><strong>Pizzas Salgadas: </strong>Bauru, Calabresa,
+                    Escarola com queijo, Frango catupiry, Mussarela, Portuguesa,
+                    Quatro queijos, Rúcula com Queijo.</span
+                  ><br />
+                  <span
+                    ><strong>Pizzas Doces: </strong>Banana com Canela,
+                    Brigadeiro, Prestígio, Romeu e Julieta.</span
+                  ><br />
+                  <span
+                    ><strong>Bebidas: </strong>Coca-Cola, Fanta, Guaraná, Água e
+                    Sucos.</span
+                  >
                 </div>
               </details>
               <details class="buffet-detalhe">
-                <summary>Pacote Pizza Intermediário</summary>
+                <summary>Pizza Familia Self Service</summary>
                 <div class="collapse">
-                  <span>Iten 1</span>
-                  <span>Iten 2</span>
-                  <span>Iten 3</span>
-                  <span>Iten 4</span>
-                </div>
-              </details>
-              <details class="buffet-detalhe">
-                <summary>Pacote Pizza Avançado</summary>
-                <div class="collapse">
-                  <span>Iten 1</span>
-                  <span>Iten 2</span>
-                  <span>Iten 3</span>
-                  <span>Iten 4</span>
+                  <span><strong>Equipe: </strong> 1 pizzaiolo, 1 Auxiliar.</span
+                  ><br />
+                  <span
+                    ><strong>Equipamentos: </strong>Guardanapos, Forno a gás com
+                    pedra refratária, Suporte individual de pizza</span
+                  ><br />
+                  <span
+                    ><strong>Entradas: </strong>bandeja de antepastos de alho e
+                    molho rose com torradas.</span
+                  ><br />
+                  <span
+                    ><strong>Pizzas Salgadas: </strong>Bauru, Calabresa,
+                    Escarola com queijo, Frango catupiry, Mussarela,
+                    Portuguesa.</span
+                  ><br />
+                  <span
+                    ><strong>Pizzas Doces: </strong>Brigadeiro, Prestígio, Romeu
+                    e Julieta.</span
+                  ><br />
+                  <span
+                    ><strong>Bebidas: </strong>Coca-Cola, Fanta, Guaraná,
+                    Água.</span
+                  >
                 </div>
               </details>
             </div>
             <div class="buffet-crepe">
               <h2>Crepe</h2>
               <details class="buffet-detalhe">
-                <summary>Pacote Crepe simples</summary>
+                <summary>Crepe Familia</summary>
                 <div class="collapse">
                   <span>Iten 1</span>
                   <span>Iten 2</span>
@@ -242,16 +273,7 @@
                 </div>
               </details>
               <details class="buffet-detalhe">
-                <summary>Pacote Crepe Intermediário</summary>
-                <div class="collapse">
-                  <span>Iten 1</span>
-                  <span>Iten 2</span>
-                  <span>Iten 3</span>
-                  <span>Iten 4</span>
-                </div>
-              </details>
-              <details class="buffet-detalhe">
-                <summary>Pacote Crepe Avançado</summary>
+                <summary>Crepe Promocional</summary>
                 <div class="collapse">
                   <span>Iten 1</span>
                   <span>Iten 2</span>
@@ -263,9 +285,48 @@
           </div>
         </section>
 
-        <section class="container-buffet-compra">
-          <h1></h1>
-        </section>
+        <div class="container-formulario" id="pizza">
+          <div class="contato-buffet">
+            <h1>Contato</h1>
+            <p>
+              Faça já sua reserva no melhor<br />
+              buffet de São Paulo
+            </p>
+          </div>
+          <form class="formulario" autocomplete="off">
+            <input
+              type="text"
+              placeholder="Nome"
+              name="nome"
+              id="nome"
+              value=""
+              required=""
+              class="formulario-item"
+            />
+            <input
+              type="text"
+              placeholder="Endereço"
+              name="endereco"
+              id="endereco"
+              value=""
+              required=""
+              class="formulario-item"
+            />
+            <select id="sabor" class="formulario-item">
+              <option>Crepe Familia</option>
+              <option>Crepe Promocional</option>
+              <option>Pizza Familia Completo</option>
+              <option>Pizza Familia Self Service</option>
+            </select>
+            <input
+              type="submit"
+              name="submit"
+              value="Enviar"
+              onclick="gotowhatsapp();"
+              class="formulario-btn"
+            />
+          </form>
+        </div>
       </div>
     </main>
     <footer class="footer">
