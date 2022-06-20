@@ -101,10 +101,12 @@ body{
     border: 0 !important;
     margin-top: 15px;
     border-radius: 15px;
-    color: #751201;
 }
 .formulario-item option{
     font-weight: bold;
+}
+.formulario-item span{
+    color: red;
 }
 
 .formulario-item::placeholder{

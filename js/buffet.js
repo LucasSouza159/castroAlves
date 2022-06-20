@@ -1,13 +1,13 @@
 function buffetgotowhatsapp() {
             
-    var nome = document.getElementById("nome").value;
-    var endereco = document.getElementById("endereco").value;
-    var sabor = document.getElementById("sabor").value;
+    var nomebuffet = document.getElementById("nomebuffet").value;
+    var enderecobuffet = document.getElementById("enderecobuffet").value;
+    var saborbuffet = document.getElementById("saborbuffet").value;
     
     var url = "https://wa.me/+5511985307427?text=" 
-    + "Nome: " + nome + "%0a"
-    + "Endereço: " + endereco + "%0a"
-    + "Sabor: " + sabor  + "%0a"
+    + "Nome: " + nomebuffet + "%0a"
+    + "Endereço: " + enderecobuffet + "%0a"
+    + "Sabor: " + saborbuffet  + "%0a"
 
     window.open(url, '_blank').focus();
 }
