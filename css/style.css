@@ -147,6 +147,33 @@ body{
     box-shadow: 5px 10px 30px rgb(105, 105, 105);
 }
 
+/* Buffet */
+.buffet-title{
+    text-align: center;
+    font-size: 4.75rem;
+    color: #751201;
+    margin-top: 20px;
+}
+.container-buffet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buffet-crepe h2, .buffet-pizza h2{
+    color: #751201;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.buffet-detalhe{
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:20px ;
+    font-weight: bold;
+    cursor: pointer;
+}
 /*Footer*/
 .footer{
     display: flex;
