@@ -104,7 +104,14 @@
           </div>
         </div>
         <div class="container-formulario" id="pizza">
-          <h1>Peça já<br /><span> sua pizza!!!</span></h1>
+          <div class="container-cardapioDigital">
+            <h1>Peça já<br /><span> sua pizza!!!</span></h1>
+            <a
+              class="cardapioDigital"
+              href="./assets/cardapio/cardapiodigital.pdf"
+              >Baixe o cardapio digital</a
+            >
+          </div>
           <form class="formulario" autocomplete="off">
             <input
               type="text"
@@ -125,72 +132,141 @@
               class="formulario-item"
             />
             <select id="sabor" class="formulario-item">
-              <option>A GREGA | Frango, Ervilha, mussarela e bacon</option>
+              <option>Pizza Salgada</option>
+              <option>À GREGA | Frango, Ervilha, mussarela e bacon</option>
               <option>
-                A MODA | Lombo, palmito, mussarela, catupiry e bacon
-              </option>
-              <option>A MODA 1 | Calabresa, ovo, mussarela e bacon</option>
-              <option>A MODA 2 | Frango, ovo, mussarela e bacon</option>
-              <option>
-                PIZZA <span>R$ 00</span> | Mussarela, presunto, tomate, azeitona
-                e orégano
+                Á MODA | Frango, palmito, mussarela, catupiry e bacno
               </option>
               <option>ALHO FRITO | Alho frito e mussarela</option>
               <option>ALEMÃ | Mussarela, cebola e bacon</option>
-              <option>ATUM | Atum e cebola</option>
-              <option>BACON |</option>
-              <option>BAIANA | Calabresa, Cebola, ovo e Pimenta</option>
+              <option>ATUM ll | Atum e mussarela</option>
+              <option>BAIANA | Calabresa moida, cebola, ovo e pimenta</option>
               <option>
-                BAIANA ESPECIAL | Calabresa, cebola, ovo, pimenta e pimentão.
+                BAIANA ll | Calabresa moida, Cebola, ovos, pimenta e pimentão
               </option>
-              <option>MISTA | Presunto, mussarela e tomate</option>
-              <option>BROCOLIS | Brócolis, mussarela e bacon</option>
+              <option>BACON | Bacon e mussarela</option>
+              <option>BAURU | Presunto, mussarela e tomate</option>
+              <option>BRÓCOLIS | Brócolis, mussarela e bacon</option>
+              <option>CAIPIRA | Frango, milho e mussarela</option>
+              <option>CALABACON | Calabresa, mussarela e bacon</option>
+              <option>CALABRESA | Calabesa e cebola</option>
+              <option>CALACATY | Calabresa com catupiry</option>
+              <option>CAMARÃO | Camarão com mussarela</option>
+              <option>CARNE SECA | Carne seca, mussarela e catupiry</option>
+              <option>CHAMPIGNON | Champingnon e mussarela</option>
+              <option>CHEDDAR | Cheddar, mussarela e bacon</option>
               <option>
-                BROCOLIS ESPECIAL | Catupiry, Brócolis, camarão e bacon
+                CINCO QUEIJOS | Mussarela, catupiry, cheddar, parmesão e
+                provolone
               </option>
-              <option>CAIPIRA | Frango, Milho e catupiry</option>
-              <option>CALABACON | Calabresa, Mussarela e bacon</option>
-              <option>CALABRESA | Calabresa e cebola</option>
-              <option>Toscana | Calabresa, mussarela e tomate</option>
-              <option>CALACATU | Calabresa, catupiry e bacon</option>
-              <option>CALAMUSSA | Calabresa e mussarela</option>
-              <option>CATUMILHO | Milho e catupiry</option>
-              <option>CROCANTE | Presunto, Catupiry e milho</option>
               <option>DOIS QUEIJOS | Mussarela e catupiry</option>
-              <option>TRÊS QUEIJOS | Mussarela, catupiry e parmesão</option>
+              <option>ESCAROLA | Escarola, bacon e mussarela</option>
+              <option>FRANCESA | Presunto, ovo, cebola e catupiry</option>
+              <option>FRANGO C/CATUPIRY | Frango e catupiry</option>
+              <option>FRANGO C/MUSSARELA | Frango e mussarela</option>
+              <option>
+                JARDINEIRA | Milho, palmito, ervilha, escarola e mussarela
+              </option>
+              <option>
+                JAPONESA | Palmito, Champingnon, catupiry e mussarela
+              </option>
+              <option>LOMBO | Lombo com catupiry ou mussarela</option>
+              <option>
+                MARGUERITA | Mussarela, parmesão, manjericão e tomate
+              </option>
+              <option>MILHO | Milho com mussarela</option>
+              <option>MEXICANA | Milho bacon e catupiry</option>
+              <option>MUSSARELA | Mussarela, orégano e azeitonas</option>
+              <option>NAPOLITANA | Mussarela, tomate e parmesão</option>
+              <option>PALMITO | Palmito com mussarela</option>
+              <option>
+                PEITO DE PERU | Peito de peru com mussarela ou catupiry
+              </option>
+              <option>PEPPERONI | Mussarela, pepperoni e cebola</option>
+              <option>
+                PORTUGUESA | Presunto, ervilha, ovo, cebola e mussarela
+              </option>
+              <option>PRIMAVERA | Palmito, bacon milho e mussarela</option>
+              <option>PROVOLONE | Provolone com azeitonas</option>
               <option>
                 QUATRO QUEIJOS | Mussarela, catupiry, parmesão e provolone
               </option>
-              <option>ESCAROLA | Escola, mussarela e bacon</option>
-              <option>FRANGO | Frango, cebola e tomate</option>
+              <option>SALAME | Salame com mussarela ou catupiry</option>
+              <option>TRÊS QUEIJOS | Mussarela, catupiry e parmesão</option>
+              <option>TOCANA | Calabresa com mussarela</option>
+              <option>VEGETARIANA | Escarola, milho e mussarela</option>
+            </select>
+            <select name="pizzaDoce" id="pizzaDoce" class="formulario-item">
+              <option>Pizzas doces</option>
+              <option>BANANA</option>
+              <option>BRIGADEIRO</option>
+              <option>FLORESTA NEGRA</option>
+              <option>PRESTÍGIO</option>
+              <option>ROMEU E JULIETA</option>
+              <option>CHOCOLATE BRANCO</option>
+              <option>MORANGO C/CHOCOLATE</option>
+              <option>M&MS</option>
+              <option>NUTELLA</option>
+              <option>NUTTELA C/MORANGO</option>
+            </select>
+            <select
+              name="esfihasSalgadas"
+              id="esfihasSalgadas"
+              class="formulario-item"
+            >
+              <option>Esfihas Salgadas</option>
+              <option>ATUM</option>
+              <option>ATUM C/QUEIJO OU MUSSARELA</option>
+              <option>CAIPIRA</option>
+              <option>CALABRESA</option>
+              <option>CALABRESA C/QUEIJO</option>
+              <option>CARNE</option>
+              <option>CARNE C/QUEIJO</option>
+              <option>CARNE SECA</option>
+              <option>CATUPIRY</option>
+              <option>ESCAROLA C/QUEIJO</option>
               <option>FRANGO C/CATUPIRY</option>
-              <option>FRANCO C/MUSSARELA</option>
-              <option>PALMEIRENSE | Calabresa, frango, ovo e mussarela</option>
-              <option>LOMBO | Lombo, catupiry ou mussarela</option>
-              <option>
-                MARGUERITA | Mussarela, tomate, manjericão e parmesão
-              </option>
-              <option>MUSSARELA | Mussarela e orégano</option>
-              <option>PORTUGUESA | Presunto, ervilha, ovo e mussarela</option>
-              <option>PALMITO | Mussarela e palmito</option>
-              <option>PORTUGUESA TOP |</option>
-              <option>MILHO VERDE |</option>
-              <option>ITALIANA |</option>
-              <option>SÃO PAULINA | Frango, Mussarela, catupiry e bacon</option>
-              <option>
-                CORINTHIANA | Lombo, palmito, mussarela, camarão e bacon
-              </option>
-
-              <option>
-                VEGETARIANA | Escarola, milho, palmito e mussarela
-              </option>
-              <option>JARDINEIRA | Brócolis, milho, palmito e mussarela</option>
-              <option>MEXICANA R$ 37 | Atum, ervilha, mussarela e bacon</option>
+              <option>FRANGO C/MUSSARELA</option>
+              <option>FRANGO C/CHEDDAR</option>
+              <option>LOMBO C/CATUPIRY</option>
+              <option>MILHO C/CATUPIRY</option>
+              <option>NAPOLITANA</option>
+              <option>PALMITO</option>
+              <option>PORTUGUESA</option>
+              <option>QUEIJO</option>
+              <option>QUEIJO C/BACON</option>
+            </select>
+            <select
+              name="esfihasDoces"
+              id="esfihasDoces"
+              class="formulario-item"
+            >
+              <option>Esfihas Doces</option>
+              <option>BANANA</option>
+              <option>BRIGADEIRO</option>
+              <option>FLORESTA NEGRA</option>
+              <option>PRESTÍGIO</option>
+              <option>ROMEU E JULIETA</option>
+              <option>CHOCOLATE BRANCO</option>
+              <option>M&MS</option>
+              <option>NUTELLA</option>
+            </select>
+            <select name="fogazzas" id="fogazzas" class="formulario-item">
+              <option>Fogazzas</option>
+              <option>ATUM C/QUEIJO OU CATUPIRY</option>
+              <option>BAURU</option>
+              <option>CAIPIRA</option>
+              <option>CALABRESA C/QUEIJO</option>
+              <option>DOIS QUEIJOS</option>
+              <option>ESCAROLA C/QUEIJO E BACON</option>
+              <option>FRANGO C/CATUPIRY</option>
+              <option>PORTUGUESA</option>
+              <option>CARNE SECA</option>
             </select>
             <select id="borda" class="formulario-item">
               <option>Borda simples</option>
-              <option>Borda com Cheedar $5</option>
-              <option>Borda com Catupiry $5</option>
+              <option>Borda com Cheedar</option>
+              <option>Borda com Catupiry</option>
             </select>
             <select id="entrega" class="formulario-item">
               <option>Entregar de moto</option>

@@ -72,7 +72,7 @@ body{
 }
 /* Formulario */
 .container-formulario{
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #751201;
@@ -88,6 +88,30 @@ body{
 }
 .container-formulario span{
     margin-left: 20px;
+}
+.container-cardapioDigital{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cardapioDigital{
+    background-color: rgb(227, 231, 0);
+    text-decoration: none;
+    padding: 10px;
+    width: 70%;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #751201;
+    box-shadow: 0px 0px 30px #222;
+    transition: all .3s;
+    justify-content: center;
+    align-items: center;
+}
+.cardapioDigital:hover{
+    background-color: rgb(91, 218, 18);
 }
 .formulario{
     display: flex;
